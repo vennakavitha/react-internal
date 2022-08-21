@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+class sweet extends React.Component {
+  render() {
+    return <h2>I am a {this.props.color} sweet!</h2>;
+  }
+}
+
+ReactDOM.render(<sweet color="red"/>, document.getElementById('root'));>
